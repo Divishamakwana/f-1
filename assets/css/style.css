@@ -1,0 +1,876 @@
+@font-face {
+    font-family: Plus Jakarta Sans;
+    src: url('../fonts/PlusJakartaSans-Regular.ttf');
+}
+
+body {
+    font-family: Plus Jakarta Sans;
+}
+
+/* login section starts here  */
+.login-header-part{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.login-header-part a{
+    color: var(--neutral-body, #394242);
+    /* Subtitle 1 */
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    /* 150% */
+}
+
+
+/* header-part  */
+.header-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    position: fixed;
+    height: 80px;
+    width:100%;
+    background-color: white;
+    border-bottom: 2px solid gainsboro;
+    /* z-index: 1; */
+}
+
+.header-part a {
+    color: var(--neutral-body, #394242);
+    /* Subtitle 1 */
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    /* 150% */
+}
+
+/* banner part  */
+.login-section .banner-section .banner-content h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #394242;
+
+}
+
+.login-section .banner-section .banner-content p {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #394242;
+}
+
+.login-section .banner-section .banner-content .google {
+    width: Fixed (417px);
+    height: Hug (58px);
+    top: 528px;
+    left: 160px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px;
+    gap: 15px;
+}
+
+.login-section .banner-section .banner-content .google a {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #394242;
+    text-decoration: none;
+}
+
+.login-section .banner-section .banner-content .github {
+    width: Fixed (417px);
+    height: Hug (58px);
+    top: 610px;
+    left: 160px;
+    padding: 15px;
+    border-radius: 12px;
+    gap: 15px;
+    background-color: #000000;
+}
+
+.login-section .banner-section .banner-content .github a {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.login-section .banner-section .banner-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 200px 15px
+}
+
+.login-section .banner-section .banner-img {
+    background-image: url('../image/banner-img.png');
+    background-position: cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.login-section .banner-section .banner-img .text-carousel {
+    padding-top: 300px;
+    margin: 10px 10px;
+}
+
+
+.login-section .banner-section .banner-img .text-carousel .carousel-content {
+    padding: 10px 20px;
+    margin: 100px 60px 50px 60px;
+    position: relative;
+    background-color: rgba(169, 169, 169, 0.3);
+    border-radius: 15px;
+}
+
+.login-section .banner-section .banner-img .text-carousel .carousel-content h3 {
+    color: var(--neutral-white, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+}
+
+.login-section .banner-section .banner-img .text-carousel .carousel-content p {
+    color: var(--neutral-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+/* footer part  */
+.footer-section a {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #394242;
+    text-decoration: none;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+}
+
+/* pre process part  */
+.left-nav {
+    background-color: #000000;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: fixed;
+    top:80px;
+    left:0px;
+    width:100px;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    /* Subtitle 2 */
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.left-nav img {
+    padding: 10px 5px;
+}
+
+.pre-process-section .pre-process-model h2 {
+    color: var(--neutral-black, #172121);
+    /* Header 2 */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+}
+
+.pre-process-section .pre-process-model h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.pre-process-section {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.pre-process-model {
+    background-color: #F7F7F7;
+    height: 100%;
+    border-right: 2px solid gainsboro;
+}
+
+.no-gutters-custom {
+    margin-right: 0;
+    margin-left: 0;
+    --bs-gutter-x: 0rem;
+}
+
+
+.pre-process-section .pre-process-model .upload {
+    border-radius: 15px;
+    border: 2px rgb(143, 140, 140);
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 30px 30px;
+    margin: 30px 30px 10px 30px;
+}
+
+.pre-process-section .pre-process-model .upload p {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(143, 140, 140);
+
+}
+
+.pre-process-section .pre-process-model .model-img img {
+    width: 90%;
+    height: 90%;
+    margin: 10px 15px;
+    padding: 5px 10px;
+}
+
+
+.pre-process-section .pre-process-model button {
+    border-radius: 12px;
+    background: var(--primary-main, #1F91D0);
+    padding:5px 10px;
+    width:90%;
+    margin:5px 10px;
+    border: none;
+    box-shadow: 1px 2px 10px 0px rgba(255, 255, 255, 0.40) inset, 1px -1px 2px 0px rgba(255, 255, 255, 0.40) inset, 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    
+}
+
+.pre-process-section .pre-process-model button {
+
+    color: var(--neutral-white, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+.pre-process-section .template-selector h2 {
+    color: var(--neutral-body, #394242);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.pre-process-section .template-selector .template-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.pre-process-section .template-selector .template-content .template-img {
+    margin: 10px 5px;
+    padding: 0px 0px 10px 0px;
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 15px;
+}
+
+.pre-process-section .template-selector .template-content .template-img figcaption {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 5px 10px;
+    /* 150% */
+}
+
+.pre-process-section .template-selector .template-content .template-img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* chat section  */
+
+.chat-section {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.chat-box {
+    border-right: 2px solid gainsboro;
+    background-color: #F7F7F7;
+    padding-bottom: 10px;
+}
+
+.chat-box .chat-header {
+    border-bottom: 2px solid gainsboro;
+    background-color: #ffffff;
+}
+
+.chat-section .chat-box .chat-header h2 {
+    color: var(--neutral-black, #172121);
+    /* Header 2 */
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 10px 20px
+}
+
+.chat-box .chat-body .received-message {
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px auto 10px 15px;
+    color: #000000;
+    left: 0;
+    font-size: 14px;
+    /* z-index: 0; */
+}
+
+.chat-box .chat-body .sent-message {
+    background-color: #1F91D0;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px 10px 10px auto;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.chat-box .input-group {
+    margin: 30px 10px 30px 10px;
+    padding: 5px 15px 5px 5px;
+    position: inherit;
+}
+
+.chat-box .input-group .input-msg input {
+    border: transparent;
+    outline: none;
+}
+
+.chat-box .input-group .input-msg {
+    border: 1px solid rgb(143, 140, 140);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 10px 5px;
+    background-color: #ffffff;
+}
+
+.chat-box .button button {
+    background-color: #1671B2;
+    padding: 8px 8px;
+    margin: 10px 10px;
+    border: none;
+}
+.chat-body{
+    height:600px;
+    overflow-y: auto;
+}
+
+.scene img {
+    width: 100%;
+    height: 300px;
+    /* height: 100%;
+    width:100%; */
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.scene p {
+    color: var(--neutral-black, #172121);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 0px 15px;
+    /* 140% */
+}
+
+.scene figcaption {
+    color: var(--neutral-body, #394242);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.scene a {
+    color: var(--primary-main, #1F91D0);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    text-decoration: none;
+}
+
+/* access-deny section  */
+.access-deny-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.access-deny-content img {
+    width: 50%;
+    height: 50%;
+}
+
+.access-deny-content h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.access-deny-content p {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.access-deny-section{
+    padding-top: 100px;
+}
+
+/* page not found section  */
+.page-not-found-section{
+    padding-top: 100px;
+}
+.page-not-found-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 50px 20px 100px 20px;
+
+}
+
+.page-not-found-content img {
+    width: 50%;
+    height: 50%;
+}
+
+.page-not-found-content h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.page-not-found-content p {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+/* payment section  */
+.payment-section{
+    display:flex;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.payment-content {
+    display: flex;
+    margin:100px auto;
+    flex-wrap: wrap;
+}
+
+.payment-plan {
+
+    border: 1px solid rgb(143, 140, 140);
+    border-radius: 15px;
+    margin: 20px 10px;
+    /* min-width: 300px; */
+}
+.payment-footer{
+    padding-left: 100px;
+}
+
+.payment-plan .payment-header {
+    color: var(--primary-main, #1F91D0);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #D1F8FC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px 10px;
+    /* 150% */
+}
+
+.payment-plan .payment-body h2 {
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 141.176% */
+
+}
+
+.payment-plan .payment-body p {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.payment-plan .payment-body li {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+.payment-body .price {
+    text-align: center;
+}
+
+.payment-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: url(../image/CheckCircle.png);
+    padding-right: 10px;
+}
+.payment-content .starter .payment-header{
+    background-color:rgb(243, 239, 239) ;
+
+}
+
+.payment-content .annual .payment-body {
+    background-color: #1F91D0;
+    color: #ffffff;
+}
+
+.payment-content .annual .payment-body ul li::before {
+    content: url(../image/CheckCircle-white.png);
+}
+
+.payment-content .payment-body button {
+    border: 1px solid rgb(202, 198, 198);
+    box-shadow: 1px 2px 10px 0px rgba(255, 255, 255, 0.40) inset, 1px -1px 2px 0px rgba(255, 255, 255, 0.40) inset, 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    ;
+    padding: 10px 5px;
+    margin:20px 10px;
+    border-radius: 10px;
+}
+
+/* bottom navbar */
+.nav-bottom{
+    background-color:#000000;
+    display: none;
+    padding-top: 10px;
+    position:fixed;
+    bottom: 0;
+    width:100%
+}
+.nav-bottom a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bottom a .img-1{
+    padding-left: 10px;
+}
+
+
+/* media-query  */
+
+@media only screen and (max-width: 991px) {
+    .login-section .banner-section .banner-content {
+        padding: 50px 15px;
+    }
+
+
+    .pre-process-model .pre-process-img {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .pre-process-model {
+        height: 100vh;
+
+    }
+
+    .pre-process-section .pre-process-model h2 {
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+
+    .pre-process-section .pre-process-model .upload {
+        padding: 30px 20px;
+        margin: 30px 20px 20px 20px;
+        max-width: 250px;
+    }
+
+    
+    .pre-process-section .pre-process-model .model-img img {
+        margin: 25px 15px;
+    }
+
+    .pre-process-section .template-selector h2 {
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .pre-process-section .template-selector .template-content .template-img {
+        margin: 20px 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 769px) {
+    .left-nav {
+        height: 160vh;
+    }
+
+    .pre-process-model {
+        height: 40vh;
+    }
+
+    .pre-process-section .pre-process-model .upload {
+        padding: 30px 40px;
+    }
+    .pre-process-section .pre-process-model button{
+        width:100%;
+    }
+
+
+}
+@media only screen and (max-width: 376px){
+
+
+    .pre-process-section .template-selector .template-content .template-img{
+        margin:15px 0px;
+    }
+    .pre-process-section .template-selector h2{
+        padding-top: 70px;
+        padding-left: 20px;
+        margin-left:0;
+    }
+    .pre-process-section .pre-process-model .upload{
+        padding: 10px 20px;
+        margin: 25px 5px 10px 5px;
+        height: 160px;
+        width:160px;
+    }
+    .pre-process-model .pre-process-img{
+        width:360px;
+        overflow-x: auto;
+    }
+    .pre-process-model{
+        width:360px;
+    }
+    .pre-process-model .pre-process-img .model-img img{
+        width:160px;
+        height:170px;
+        margin:20px 0px 5px 5px;
+    }
+
+    .header-part a{
+        margin-top: 10px;
+        
+    }
+    .footer-section .right-part{
+        margin:10px 116px;
+    }
+    .footer-section .left-part{
+        margin:5px 60px;
+    }
+    .login-section .footer-section .left-part{
+        padding: 0px 0px;
+    }
+    .login-section .footer-section .right-part{
+        padding:0px 0px;
+        margin:10px 100px;
+    }
+    .login-section .footer-section{
+        padding-bottom: 10px;
+    }
+    .banner-section .banner-img{
+        height: 500px;
+    }
+    .login-section .banner-section .banner-img .text-carousel{
+        padding-top: 20px;
+    }
+    .login-section .banner-section .banner-img .text-carousel .carousel-control-prev{
+        display: none;
+    }
+    .login-section .banner-section .banner-img .text-carousel .carousel-control-next{
+        display: none;
+    }
+    .carousel.pointer-event{
+        margin:15px -40px;
+    } 
+    .footer-section{
+        padding-bottom: 100px;
+    }
+    .page-not-found-section .footer-section .left-part{
+        margin:5px 80px;
+    }
+    .page-not-found-section .footer-section .right-part{
+        margin:10px 116px;
+    }
+    .access-deny-section .footer-section .left-part{
+        margin:5px 80px;
+    }
+    .access-deny-section .footer-section .right-part{
+        margin:10px 116px;
+    }
+    .left-nav{
+        position:fixed;
+        bottom:0;
+        top: auto;
+        height:80px;
+        width:100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:5px 5px;
+    }
+    .pre-process-section{
+        padding-left: 0px;
+        padding-right:0px;
+        width:100vw;
+    }
+    .pre-process-section .pre-process-model{
+        width: 100vw;
+        border: none;
+        padding:10px 10px
+    }
+    .pre-process-section .pre-process-model h2{
+        padding-left: 10px;
+    }
+    .chat-section{
+        padding-left: 0px;
+    }
+    .payment-section{
+        padding-left: 20px;
+    }
+    .payment-content{
+        margin:50px auto;
+    }
+    .payment-footer{
+        padding-left:0px;
+    }
+    .access-deny-content{
+        margin-top: 50px;
+    }
+    
+    
+}
+    
